@@ -1,9 +1,7 @@
-
 # tools
-
-# file saver tool
 import os 
 
+# file saver tool
 file = os.path.join("data", "file.txt")
 
 def save_file(text):
