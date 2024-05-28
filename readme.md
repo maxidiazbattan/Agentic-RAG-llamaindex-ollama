@@ -1,6 +1,6 @@
 # Agent with Ollama & Langchain
 
-You can test this app in lightning studios via this [link](https://lightning.ai/maxidiazbattan/studios/grateful-sapphire-bo61), or locally following the steps below.
+You can test this app in lightning studios via this [link](https://lightning.ai/maxidiazbattan/studios/agentic-rag-llamaindex-ollama), or locally following the steps below.
 
 ### 1. [Install](https://github.com/ollama/ollama?tab=readme-ov-file) ollama and pull models
 
