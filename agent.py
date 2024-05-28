@@ -1,4 +1,3 @@
-
 # tools
 import os
 import glob
@@ -22,7 +21,6 @@ path = './data'
 file_name = 'shap.pdf'
 file_path = os.path.join(path, file_name)
 
-
 models = {
   'mistral': 'koesn/mistral-7b-instruct',
   'misal': 'smallstepai/misal-7B-instruct-v0.1',
@@ -36,7 +34,7 @@ llm = Ollama(model=models['mistral'])
 Settings.embed_model = embed_model
 Settings.llm = llm
 
-# documentToolsGenerator class instantiation 
+# DocumentToolsGenerator class instantiation 
 docs_tools = DocumentToolsGenerator(file_path=file_path)
 
 # nodes creation
@@ -51,4 +49,3 @@ agent = ReActAgent.from_tools(tools=[vector_tool, summary_tool, file_tool], llm=
 while (prompt := input("Enter a prompt (q to quit): ")) != "q":
   result = agent.query(prompt)
   print(result)
-
