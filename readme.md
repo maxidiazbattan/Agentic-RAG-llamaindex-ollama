@@ -18,7 +18,7 @@ ollama serve
 Pull the LLM you'd like to use:
 
 ```shell
-ollama pull llama3
+ollama pull koesn/mistral-7b-instruct
 ```
 
 ### 2. Create a virtual environment
