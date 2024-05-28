@@ -1,0 +1,7 @@
+__pycache__
+.lightning_studio
+.ollama
+.idea/this_studio.iml
+.vscode/settings.json
+.bash_history
+data/db

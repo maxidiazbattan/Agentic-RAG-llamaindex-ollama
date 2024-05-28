@@ -1,0 +1,6 @@
+streamlit==1.31.0
+pydantic
+ollama
+llama-index
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
