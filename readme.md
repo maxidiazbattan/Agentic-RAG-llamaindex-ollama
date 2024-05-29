@@ -1,5 +1,6 @@
 # Agent with Ollama & Langchain
 
+This repo contains an implementation of an Agentic Retrieval-Augmented Generation (RAG) application leveraging LlamaIndex and Ollama. The agent efficiently retrieves relevant information from documents and generates coherent, contextually appropriate responses, thanks to the tools provided. Additionally, you can save the responses to a file if desired.
 You can test this app in lightning studios via this [link](https://lightning.ai/maxidiazbattan/studios/agentic-rag-llamaindex-ollama), or locally following the steps below.
 
 ### 1. [Install](https://github.com/ollama/ollama?tab=readme-ov-file) ollama and pull models
