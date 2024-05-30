@@ -39,3 +39,9 @@ pip install -r requirements.txt
 ```shell
 wget https://arxiv.org/pdf/2302.08160 -O ./data/shap.pdf
 ```
+
+### 5. Run the agent
+
+```shell
+python agent.py
+```
